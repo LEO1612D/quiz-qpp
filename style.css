@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3a54ef;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.container-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  padding: 2rem;
+  justify-content: flex-start;
+}
+
+.header-logo {
+  padding: 1rem;
+}
+
+.sub-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quiz-content {
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #fff;
+  color: #334354;
+}
+
+.quiz-nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.quiz-button {
+  margin-right: 10px;
+  background-color: #334354;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  width: 100%;
+}
+.quiz-button:hover {
+  background-color: #3a54ef;
+}
+
+.quiz-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.quiz-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+hr {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 2px;
+  background-color: #3a54ef;
+}
+.quiz-title {
+  margin-bottom: 10px;
+}
+
+.quiz-sub-title {
+  margin-bottom: 10px;
+}
+h3 {
+  font-style: italic;
+  margin: 0;
+}
+h6 {
+  margin: 0;
+  font-weight: lighter;
+}
+.answer-box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.answer-button {
+  margin-top: 5px;
+  margin-right: 10px;
+  background-color: #3a54ef;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+.view-answer {
+  margin-left: 100px;
+}
